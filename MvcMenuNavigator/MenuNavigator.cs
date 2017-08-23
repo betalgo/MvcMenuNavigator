@@ -8,6 +8,11 @@ namespace MvcMenuNavigator
         private readonly HeaderTop _headerTop;
         private readonly HeaderSub _headerSub;
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="headerTop">Main Menu</param>
+        /// <param name="headerSub">Sub Menu</param>
         public MenuNavigator(HeaderTop headerTop, HeaderSub headerSub)
         {
             _headerTop = headerTop;
@@ -18,7 +23,7 @@ namespace MvcMenuNavigator
         {
             filterContext.Controller.TempData["MvcMenuNavigator.HeaderTop"] = _headerTop;
             filterContext.Controller.TempData["MvcMenuNavigator.HeaderSub"] = _headerSub;
-
+            
             OnActionExecuting(filterContext);
         }
     }

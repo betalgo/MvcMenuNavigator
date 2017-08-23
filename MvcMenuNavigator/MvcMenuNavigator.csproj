@@ -65,8 +65,9 @@
     <Compile Include="MenuNavigator.cs" />
     <None Include="content\NavigationMenu\PageModels.cs.pp" />
     <Compile Include="NavigationMenu\PageModels.cs" />
-    <Compile Include="PageData.cs" />
+    <Compile Include="MvcNavigatorPageData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="readme.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
