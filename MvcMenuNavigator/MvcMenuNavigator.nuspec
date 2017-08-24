@@ -11,16 +11,7 @@
     <iconUrl>https://avatars3.githubusercontent.com/u/7516303?v=4</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>Mvc Menu Highlight</tags>
-    <contentFiles>
-      <files include="NavigationMenu/*" copyToOutput="true" />
-      <files include="content/*" copyToOutput="true" />
-    </contentFiles>
   </metadata>
-  <files>
-    <file src="NavigationMenu\*.cs" target="NavigationMenu" />
-    <file src="content\*" target="NavigationMenu" />
-  </files>
 </package>

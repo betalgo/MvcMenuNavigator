@@ -1,5 +1,4 @@
 ﻿using System.Web;
-using MvcMenuNavigator.NavigationMenu;
 
 namespace MvcMenuNavigator
 {
@@ -8,7 +7,7 @@ namespace MvcMenuNavigator
     /// </summary>
     public static partial class MvcNavigatorPageData
     {
-        public static HeaderTop HeaderTop => (HeaderTop)HttpContext.Current.Session["MvcMenuNavigator.HeaderTop"];
-        public static HeaderTop HeaderSub => (HeaderTop)HttpContext.Current.Session["MvcMenuNavigator.HeaderSub"];
+        public static object HeaderTop => HttpContext.Current.Session["MvcMenuNavigator.HeaderTop"];
+        public static object HeaderSub => HttpContext.Current.Session["MvcMenuNavigator.HeaderSub"];
     }
 }
