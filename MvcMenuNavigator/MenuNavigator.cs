@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System.Web;
+using System.Web.Mvc;
 
 namespace MvcMenuNavigator
 {
@@ -20,9 +21,9 @@ namespace MvcMenuNavigator
 
         void IActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
         {
-            filterContext.Controller.TempData["MvcMenuNavigator.HeaderTop"] = _headerTop;
-            filterContext.Controller.TempData["MvcMenuNavigator.HeaderSub"] = _headerSub;
-            
+            filterContext.HttpContext.Session["MvcMenuNavigator.HeaderTop"] = _headerTop;
+            filterContext.HttpContext.Session["MvcMenuNavigator.HeaderSub"] = _headerSub;
+
             OnActionExecuting(filterContext);
         }
     }
