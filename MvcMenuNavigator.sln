@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMenuNavigator", "MvcMenuNavigator\MvcMenuNavigator.csproj", "{22A4052C-B2DD-46E4-8CF9-1C30D4839236}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{65CFC91A-FF63-426C-850C-4F2BDF54BD16}"
+	ProjectSection(SolutionItems) = preProject
+		MvcMenuNavigator\readme.md = MvcMenuNavigator\readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +23,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDF2AADE-D76A-41C9-9525-283C718A833D}
 	EndGlobalSection
 EndGlobal
