@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMenuNavigator", "MvcMenu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{65CFC91A-FF63-426C-850C-4F2BDF54BD16}"
 	ProjectSection(SolutionItems) = preProject
-		MvcMenuNavigator\readme.md = MvcMenuNavigator\readme.md
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global

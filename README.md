@@ -44,8 +44,8 @@ Put to top of your Controllor or Action
 And use it In your header layout like this
 ```html
 @{
-    var headerTop = (HeaderTop?)MvcNavigatorPageData.HeaderTop;
-    var headerSub = (HeaderSub?)MvcNavigatorPageData.HeaderSub;
+    var headerTop = (HeaderTop?)MenuNavigatorPageDataNavigatorPageData.HeaderTop;
+    var headerSub = (HeaderSub?)MenuNavigatorPageDataNavigatorPageData.HeaderSub;
 }
 <div class="nav-collapse collapse navbar-collapse navbar-responsive-collapse">
     <ul class="nav navbar-nav">
